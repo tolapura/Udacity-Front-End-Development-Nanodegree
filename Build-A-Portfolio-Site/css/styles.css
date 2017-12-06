@@ -1,0 +1,91 @@
+body {
+	font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {
+	font-size: 16px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.portfolio {
+	width: 80%;
+}
+
+.col-sm-4 img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.first-container {
+	padding-top: 150px;
+}
+
+.bg-1 {
+	background-color: #02b3e4;
+	color: #ffffff;
+}
+
+.bg-2 {
+	background-color: #ffffff;
+	color: black;
+}
+
+.bg-3 {
+	background-color: #7d97ad;
+	color: #ffffff;
+}
+
+.bg-4 {
+	background-color: #2d3c49;
+	color: #ffffff;
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+#prof {
+	width: 300px;
+}
+
+.name-text {
+	letter-spacing: 5px;
+}
+
+/* NAVBAR */
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    overflow: hidden;
+	position: fixed;
+    width: 100%;
+    z-index: 100;
+    -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+ 	-moz-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+	box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+}
+
+.navbar-nav li a:hover {
+    color: #02b3e4 !important;
+}
+
+.footer, .footer p {
+	padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
